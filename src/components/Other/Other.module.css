@@ -1,0 +1,49 @@
+ 
+.container {
+    margin-top: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 80%;
+}
+
+.videoframe {
+    margin: 5px 0;
+    width: 100%;
+}
+
+
+.videoframe:hover {
+    transform-style: preserve-3d;
+    box-shadow: 10px 10px 54px -6px rgba(0, 167, 189, 0.5);
+}
+
+.card {
+    margin: 2px 2% !important;
+}
+
+
+@media (max-width: 770px) {
+    .videoframe {
+        width: 80%;
+    }
+    .container {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .videoframe {
+        width: 95%;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+
+
+

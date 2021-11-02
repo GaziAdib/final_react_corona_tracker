@@ -1,0 +1,120 @@
+.container {
+    margin: 50px 3px;
+}
+
+.card {
+    margin: 10px 2% !important;
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.deathRate {
+    border-bottom: 10px solid rgba(255, 109, 24, 0.959);
+}
+
+
+
+.infected:hover {
+    font-size: large !important;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 27px -3px rgba(0,0,0,0.5);
+}
+
+.recovered:hover {
+    font-size: large !important;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 27px -3px rgba(0,0,0,0.5);
+}
+
+.deaths:hover {
+    font-size: large !important;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 27px -3px rgba(0,0,0,0.5);
+}
+
+
+
+.recoverRate {
+    border-bottom: 10px solid rgba(1, 253, 211, 0.959);
+}
+
+.recoverRate:hover {
+    font-size: large !important;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 27px -3px rgba(0,0,0,0.5);
+}
+
+.deathRate:hover {
+    font-size: large !important;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 27px -3px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+.numberRecoverRate:hover {
+    font-size: xx-large;
+}
+
+.numberDeathRate:hover  {
+    font-size: xx-large; 
+}
+
+.numberRecovered:hover  {
+    font-size: xx-large; 
+}
+
+.numberDeaths:hover  {
+    font-size: xx-large; 
+}
+
+.numberInfected:hover  {
+    font-size: xx-large; 
+}
+
+
+
+
+@media (max-width: 770px) {
+    .card{
+        margin: 2% 0 !important;
+    }
+}
+
+
+.InfectedCardText{
+    color: blue;
+}
+
+.RecoveredCardText{
+    color: rgb(0, 173, 0);
+}
+
+.DeathsCardText{
+    color: red !important;
+}
+
+.DeathRateCardText{
+    color: rgba(255, 109, 24, 0.959);
+}
+
+.RecoverRateCardText{
+   color: rgba(0, 146, 122, 0.959);
+}
